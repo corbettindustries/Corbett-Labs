@@ -36,16 +36,16 @@ const Navigation = ({
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <button onClick={() => scrollToSection('capabilities')} className="text-cool-grey hover:text-accent-blue transition-colors">
+          <button onClick={() => scrollToSection('capabilities')} className="text-gray-900 hover:text-blue-600 transition-colors">
             Capabilities
           </button>
-          <button onClick={() => scrollToSection('products')} className="text-cool-grey hover:text-accent-blue transition-colors">
+          <button onClick={() => scrollToSection('products')} className="text-gray-900 hover:text-blue-600 transition-colors">
             Products
           </button>
-          <button onClick={() => scrollToSection('compliance')} className="text-cool-grey hover:text-accent-blue transition-colors">
+          <button onClick={() => scrollToSection('compliance')} className="text-gray-900 hover:text-blue-600 transition-colors">
             Compliance
           </button>
-          <button onClick={() => scrollToSection('about')} className="text-cool-grey hover:text-accent-blue transition-colors">
+          <button onClick={() => scrollToSection('about')} className="text-gray-900 hover:text-blue-600 transition-colors">
             About
           </button>
           <Button onClick={onContactClick} className="btn-primary">
