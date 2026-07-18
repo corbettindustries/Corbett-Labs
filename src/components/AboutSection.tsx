@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const stats = [
   { number: 2, suffix: 'M+', label: 'Cans Monthly', description: 'High-volume production capacity' },
@@ -53,11 +54,15 @@ const AboutSection = () => {
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-6">
-            Corbett Labs - Leading OEM Innovations Globally
+            Corbett Labs as a nicotine pouch manufacturing partner
           </h2>
           <p className="text-xl text-cool-grey max-w-4xl mx-auto">
-            Built on a foundation of scientific excellence and manufacturing precision, we've grown 
-            to become the trusted OEM partner for premium nicotine pouch brands worldwide.
+            Corbett Labs supports premium nicotine pouch manufacturing through formulation-led
+            development, private label production, quality-focused operations, and global project
+            coordination.
+          </p>
+          <p className="mt-4 text-sm text-cool-grey max-w-3xl mx-auto">
+            If you are evaluating a new launch, start with our <Link to="/guides/how-to-launch-your-own-nicotine-pouch-brand" className="font-semibold text-accent-blue hover:text-deep-navy">step-by-step brand launch guide</Link>.
           </p>
         </div>
 

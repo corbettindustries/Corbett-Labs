@@ -20,7 +20,7 @@ const EnhancedHero = memo(({ onContactClick }: EnhancedHeroProps) => {
   }, []);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <header className="relative h-screen w-full overflow-hidden">
       <video
         className="absolute inset-0 h-full w-full object-cover"
         autoPlay={!prefersReducedMotion}
@@ -42,17 +42,20 @@ const EnhancedHero = memo(({ onContactClick }: EnhancedHeroProps) => {
         <div className="w-full">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10 xl:gap-12">
             <div className="lg:col-span-5 lg:max-w-[40vw]">
-              <h1 className="max-w-[14ch] text-left text-4xl font-bold leading-[1.04] tracking-tight sm:text-5xl md:text-6xl xl:text-7xl">
-                <span className="block">Crafted By</span>
-                <span className="block">Experts.</span>
-                <span className="block">Branded By</span>
-                <span className="block">You.</span>
+              <p className="mb-5 text-left text-sm font-semibold uppercase tracking-[0.22em] text-white">
+                CDMO Nicotine Pouch Manufacturer
+              </p>
+              <h1 className="max-w-[16ch] text-left text-4xl font-bold leading-[1.04] tracking-tight sm:text-5xl md:text-6xl xl:text-7xl">
+                The Modern Oral Pouch CDMO
               </h1>
+              <p className="mt-4 text-left text-xs font-medium uppercase tracking-[0.26em] text-white/80 sm:text-sm">
+                Nicotine • Caffeine • Nootropic
+              </p>
             </div>
 
-            <div className="lg:col-span-4 lg:col-start-8 lg:justify-self-end lg:max-w-[30vw]">
+            <div className="lg:col-span-4 lg:col-start-9 lg:justify-self-end lg:max-w-[30vw]">
               <p className="max-w-[36ch] text-left text-base font-normal leading-relaxed text-white/90 sm:text-lg md:text-xl lg:ml-auto lg:text-right lg:text-lg xl:text-xl">
-                Premium white-label nicotine pouch manufacturing. Turnkey CDMO solutions from formulation to fully compliant packaging.
+                Corbett Labs is a modern oral pouch CDMO specializing in OEM manufacturing, private label production, custom formulations, packaging development, and export-ready manufacturing for nicotine, caffeine, and nootropic pouch brands worldwide.
               </p>
               <div className="mt-8 flex lg:justify-end">
                 <button
@@ -67,7 +70,7 @@ const EnhancedHero = memo(({ onContactClick }: EnhancedHeroProps) => {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 });
 

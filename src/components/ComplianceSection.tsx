@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const certifications = [
   {
@@ -45,11 +46,17 @@ const ComplianceSection = ({ onContactClick }: { onContactClick: () => void }) =
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-6">
-            Compliance & Certifications
+            Quality, Compliance, and Export Readiness
           </h2>
           <p className="text-xl text-cool-grey max-w-3xl mx-auto">
-            Our commitment to regulatory excellence ensures your products meet the highest 
-            international standards for safety, quality, and market compliance.
+            We structure nicotine pouch manufacturing around quality systems, certification
+            frameworks, packaging controls, and export planning that support market-specific
+            compliance requirements.
+          </p>
+          <p className="mt-4 text-sm text-cool-grey max-w-3xl mx-auto">
+            Learn more in our <Link to="/guides/understanding-quality-control-in-nicotine-pouch-manufacturing" className="font-semibold text-accent-blue hover:text-deep-navy">quality control guide</Link>
+            <span> </span>
+            and <Link to="/guides/global-regulations-for-nicotine-pouches" className="font-semibold text-accent-blue hover:text-deep-navy">global regulations overview</Link>.
           </p>
         </div>
 
@@ -108,7 +115,7 @@ const ComplianceSection = ({ onContactClick }: { onContactClick: () => void }) =
                 <li>• Custom regulatory documentation</li>
               </ul>
               
-              <button className="btn-secondary w-full mt-6" onClick={onContactClick}>
+              <button type="button" className="btn-secondary w-full mt-6" onClick={onContactClick}>
                 Request Certificate Package
               </button>
             </div>

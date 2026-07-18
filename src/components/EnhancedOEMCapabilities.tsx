@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useSimpleAnimations } from '../hooks/useSimpleAnimations';
 const capabilities = [{
   title: 'Custom Formulation',
@@ -34,11 +35,19 @@ const EnhancedOEMCapabilities = () => {
       <div className="container-max">
         <div className="text-center mb-16" data-animate="slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-6">
-            End-to-End OEM Capabilities
+            OEM, Private Label, and Contract Manufacturing Capabilities
           </h2>
           <p className="text-xl text-cool-grey max-w-3xl mx-auto">
-            From initial concept through to market launch, we provide comprehensive 
-            manufacturing and regulatory support for your nicotine pouch brand.
+            Corbett Labs supports nicotine pouch manufacturing from formulation planning and private
+            label development through packaging coordination, quality systems, and export-ready
+            production support.
+          </p>
+          <p className="mt-4 text-sm text-cool-grey max-w-3xl mx-auto">
+            Explore <Link to="/guides/oem-vs-private-label-vs-white-label-manufacturing" className="font-semibold text-accent-blue hover:text-deep-navy">OEM vs private label vs white label manufacturing</Link>,
+            <span> </span>
+            <Link to="/guides/how-nicotine-pouches-are-manufactured" className="font-semibold text-accent-blue hover:text-deep-navy">how nicotine pouches are manufactured</Link>, and
+            <span> </span>
+            <Link to="/guides/how-to-launch-your-own-nicotine-pouch-brand" className="font-semibold text-accent-blue hover:text-deep-navy">how to launch a nicotine pouch brand</Link>.
           </p>
         </div>
 
@@ -72,8 +81,8 @@ const EnhancedOEMCapabilities = () => {
                     {/* Video: Only on large screens, same width as card */}
                     <div className="hidden lg:block w-full lg:w-5/12 lg:ml-auto">
                       <img 
-                        src="/lovable-uploads/nicotine-pouch-industry.jpg" 
-                        srcSet="/lovable-uploads/nicotine-pouch-industry.webp 1x"
+                        src="/lovable-uploads/nicotine open pouch.webp" 
+                        srcSet="/lovable-uploads/nicotine open pouch.webp 1x"
                         alt="Nicotine Pouch Industry" 
                         className="rounded-xl shadow-lg w-full h-full object-cover"
                         style={{ minHeight: '90%', maxHeight: '300px', background: '#000' }}
@@ -91,7 +100,7 @@ const EnhancedOEMCapabilities = () => {
                       </ul>
                     </div>
                     <div className="hidden lg:block w-full max-w-[520px]">
-                      <img src="/lovable-uploads/YourBrand.png" srcSet="/lovable-uploads/YourBrand.webp 1x" alt="Your Brand" className="rounded-xl shadow-lg w-full h-full object-cover" style={{ minHeight: '100%', maxHeight: '340px', background: '#fff' }} />
+                      <img src="/lovable-uploads/nicotine new brand.webp" srcSet="/lovable-uploads/nicotine new brand.webp 1x" alt="Your Brand" className="rounded-xl shadow-lg w-full h-full object-cover" style={{ minHeight: '100%', maxHeight: '340px', background: '#fff' }} />
                     </div>
                   </> : index === 2 ? <div className="w-full flex-col lg:flex-row flex justify-between items-center">
                     <div className={`glass-card p-8 w-full max-w-[520px] hover:scale-105 transition-transform duration-300`}>
@@ -106,7 +115,7 @@ const EnhancedOEMCapabilities = () => {
                     </div>
                     {/* Video: Only on large screens, same width as card, right side */}
                     <div className="hidden lg:block w-full max-w-[520px]">
-                      <video src="/lovable-uploads/quallity.mp4" autoPlay loop muted className="rounded-xl shadow-lg w-full h-full object-cover" style={{
+                      <video src="/lovable-uploads/nicotine quality.mp4" autoPlay loop muted className="rounded-xl shadow-lg w-full h-full object-cover" style={{
                   minHeight: '100%',
                   maxHeight: '340px',
                   background: '#000'
@@ -115,7 +124,7 @@ const EnhancedOEMCapabilities = () => {
                   </div> : index === 3 ? <div className="w-full flex-col lg:flex-row flex justify-between items-center">
                     {/* Video: Only on large screens, same width as card, left side */}
                     <div className="hidden lg:block w-full max-w-[520px] mr-8">
-                      <video src="/lovable-uploads/ScaleAble.mp4" autoPlay loop muted className="rounded-xl shadow-lg w-full h-full object-cover" style={{
+                      <video src="/lovable-uploads/nicotine production.mp4" autoPlay loop muted className="rounded-xl shadow-lg w-full h-full object-cover" style={{
                   minHeight: '100%',
                   maxHeight: '340px',
                   background: '#000'
@@ -144,7 +153,7 @@ const EnhancedOEMCapabilities = () => {
                     </div>
                     {/* Video: Only on large screens, same width as card, right side */}
                     <div className="hidden lg:block w-full max-w-[520px] ml-8">
-                      <video src="/lovable-uploads/4053048-sd_960_540_25fps.mp4" autoPlay loop muted className="rounded-xl shadow-lg w-full h-full object-cover" style={{
+                      <video src="/lovable-uploads/nicotine customer support.mp4" autoPlay loop muted className="rounded-xl shadow-lg w-full h-full object-cover" style={{
                   minHeight: '100%',
                   maxHeight: '340px',
                   background: '#000'

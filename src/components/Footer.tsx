@@ -1,10 +1,18 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    if (isHome) {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      window.location.assign(`/#${sectionId}`);
     }
   };
 
@@ -16,60 +24,89 @@ const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <img src="/lovable-uploads/logo.png" srcSet="/lovable-uploads/logo.webp 1x" alt="Logo" className="w-10 h-10 rounded-lg object-contain" />
-              <span className="font-bold text-2xl">Corbett Labs</span>
+              <Link to="/" className="flex items-center space-x-2">
+                <img src="/lovable-uploads/nicotine logo.webp" srcSet="/lovable-uploads/nicotine logo.webp 1x" alt="Corbett Labs logo" className="w-10 h-10 rounded-lg object-contain" />
+                <span className="font-bold text-2xl">Corbett Labs</span>
+              </Link>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
-              Leading OEM manufacturer of premium nicotine pouches with extensive experience 
-              in delivering innovative solutions for global brands.
+              CDMO nicotine pouch manufacturer supporting OEM manufacturing, private label nicotine
+              pouches, custom formulations, premium packaging, and export-oriented production.
             </p>
             {/* Social media buttons removed as requested */}
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Quick Links</h3>
+            <h3 className="font-bold text-lg mb-4">Manufacturing</h3>
             <div className="space-y-3">
-              <button 
+              <button
+                type="button"
                 onClick={() => scrollToSection('capabilities')}
                 className="block text-white/80 hover:text-sky-glow transition-colors"
               >
                 OEM Capabilities
               </button>
-              <button 
+              <button
+                type="button"
                 onClick={() => scrollToSection('products')}
                 className="block text-white/80 hover:text-sky-glow transition-colors"
               >
-                Product Portfolio
+                Flavor and Strength Portfolio
               </button>
-              <button 
+              <button
+                type="button"
                 onClick={() => scrollToSection('compliance')}
                 className="block text-white/80 hover:text-sky-glow transition-colors"
               >
-                Compliance
+                Quality and Compliance
               </button>
-              <button 
+              <button
+                type="button"
                 onClick={() => scrollToSection('about')}
                 className="block text-white/80 hover:text-sky-glow transition-colors"
               >
-                About Us
+                About Corbett Labs
               </button>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-lg mb-4">Resources</h3>
+            <div className="space-y-3 text-white/80">
+              <Link to="/guides" className="block transition-colors hover:text-sky-glow">
+                Guides
+              </Link>
+              <Link to="/guides/how-nicotine-pouches-are-manufactured" className="block transition-colors hover:text-sky-glow">
+                Manufacturing Guide
+              </Link>
+              <Link to="/guides/oem-vs-private-label-vs-white-label-manufacturing" className="block transition-colors hover:text-sky-glow">
+                OEM vs Private Label
+              </Link>
+              <Link to="/guides/global-regulations-for-nicotine-pouches" className="block transition-colors hover:text-sky-glow">
+                Regulations Overview
+              </Link>
             </div>
           </div>
 
           {/* Contact Info */}
           <div>
             <h3 className="font-bold text-lg mb-4">Get in Touch</h3>
-            <div className="space-y-3 text-white/80">
+            <address className="space-y-3 text-white/80 not-italic">
               <p>Uttarakhand, India</p>
-              <p>pouchex@corbettlabs.in</p>
-              <button 
+              <p>
+                <a href="mailto:pouchex@corbettlabs.in" className="transition-colors hover:text-sky-glow">
+                  pouchex@corbettlabs.in
+                </a>
+              </p>
+              <button
+                type="button"
                 onClick={onContactClick}
                 className="btn-primary mt-4"
               >
                 Request Quote
               </button>
-            </div>
+            </address>
           </div>
         </div>
 

@@ -50,8 +50,9 @@ const MetricsCounter = () => {
   }, []);
 
   return (
-    <section className="py-10 bg-deep-navy" data-scroll-section>
+    <section className="py-10 bg-deep-navy" data-scroll-section aria-labelledby="metrics-heading">
       <div className="container-max">
+        <h2 id="metrics-heading" className="sr-only">Corbett Labs manufacturing metrics</h2>
         <div ref={metricsRef} className="flex flex-wrap justify-center gap-12 md:gap-20 lg:gap-24">
           {metrics.map((metric, index) => (
             <div key={metric.label} className="text-center px-4 md:px-6 lg:px-16">

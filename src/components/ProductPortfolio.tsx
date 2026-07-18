@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const products = [
   {
@@ -72,11 +73,16 @@ const ProductPortfolio = ({ onContactClick }: { onContactClick: () => void }) =>
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-6">
-            Product Portfolio
+            Nicotine Pouch Flavor and Strength Portfolio Options
           </h2>
           <p className="text-xl text-cool-grey max-w-3xl mx-auto">
-            Comprehensive range of nicotine pouches covering every market segment and 
-            consumer preference with customizable formulations.
+            We develop nicotine pouch ranges around market fit, pouch feel, flavor clarity, and
+            nicotine strength architecture rather than generic SKU expansion.
+          </p>
+          <p className="mt-4 text-sm text-cool-grey max-w-3xl mx-auto">
+            See our <Link to="/guides/nicotine-strength-guide" className="font-semibold text-accent-blue hover:text-deep-navy">nicotine strength guide</Link> and
+            <span> </span>
+            <Link to="/guides/nicotine-pouch-flavour-guide" className="font-semibold text-accent-blue hover:text-deep-navy">nicotine pouch flavour guide</Link> for planning a commercially useful range.
           </p>
         </div>
 
@@ -105,7 +111,7 @@ const ProductPortfolio = ({ onContactClick }: { onContactClick: () => void }) =>
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProducts.map((product, index) => (
-            <div 
+            <article 
               key={product.name}
               className="glass-card p-6 hover:transform hover:scale-105 transition-all duration-300 cursor-pointer group flex flex-col h-[320px]"
               style={{ animationDelay: `${index * 100}ms` }}
@@ -128,10 +134,10 @@ const ProductPortfolio = ({ onContactClick }: { onContactClick: () => void }) =>
                 ))}
               </div>
               
-              <button onClick={onContactClick} className="w-full bg-white/50 text-cool-grey py-2 rounded-lg text-sm font-medium group-hover:bg-accent-blue group-hover:text-white transition-all duration-300 mt-auto">
+              <button type="button" onClick={onContactClick} className="w-full bg-white/50 text-cool-grey py-2 rounded-lg text-sm font-medium group-hover:bg-accent-blue group-hover:text-white transition-all duration-300 mt-auto">
                 Request Sample
               </button>
-            </div>
+            </article>
           ))}
         </div>
       </div>
