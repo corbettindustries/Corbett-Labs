@@ -95,8 +95,8 @@ const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
             <address className="space-y-3 text-white/80 not-italic">
               <p>Uttarakhand, India</p>
               <p>
-                <a href="mailto:pouchex@CorbettIndustries.co" className="transition-colors hover:text-sky-glow">
-                  pouchex@CorbettIndustries.co
+                <a href="mailto:james@corbettindustries.co" className="transition-colors hover:text-sky-glow">
+                  james@corbettindustries.co
                 </a>
               </p>
               <button

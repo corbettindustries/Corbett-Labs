@@ -32,7 +32,7 @@ export type Guide = {
 
 export const siteName = 'Corbett Industries';
 
-export const canonicalSiteUrl = 'https://CorbettIndustries.co';
+export const canonicalSiteUrl = 'https://corbettindustries.co';
 
 export const homepageTitle = 'CDMO Nicotine Pouch Manufacturer | Corbett Industries';
 

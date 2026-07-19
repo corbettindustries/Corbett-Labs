@@ -20,7 +20,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
   const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'your_service_id';
   const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'your_template_id';
   const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'your_public_key';
-  const RECIPIENT_EMAIL = 'pouchex@CorbettIndustries.co';
+  const RECIPIENT_EMAIL = 'james@corbettindustries.co';
   const formRef = useRef<HTMLFormElement | null>(null);
   const [formData, setFormData] = useState({
     fullName: '',
@@ -159,7 +159,7 @@ Submitted: ${new Date().toLocaleString('en-US', {
         if (formRef.current) formRef.current.reset();
         setLoadTimestamp(Date.now());
     } catch (err) {
-      setFormMessage({ type: 'error', text: 'We couldn’t send your request. Please try again later or email pouchex@CorbettIndustries.co.' });
+      setFormMessage({ type: 'error', text: 'We couldn’t send your request. Please try again later or email james@corbettindustries.co.' });
     } finally {
       setIsSubmitting(false);
     }
@@ -298,7 +298,7 @@ Submitted: ${new Date().toLocaleString('en-US', {
                 </div>
                 <div>
                   <h4 className="font-medium text-deep-navy">Sales Team</h4>
-                  <p className="text-cool-grey">pouchex@CorbettIndustries.co</p>
+                  <p className="text-cool-grey">james@corbettindustries.co</p>
                 </div>
                 
               </div>

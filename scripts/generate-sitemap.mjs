@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-const siteUrl = 'https://CorbettIndustries.co';
+const siteUrl = 'https://corbettindustries.co';
 const contentPath = resolve(process.cwd(), 'src/lib/content.ts');
 const sitemapPath = resolve(process.cwd(), 'public/sitemap.xml');
 

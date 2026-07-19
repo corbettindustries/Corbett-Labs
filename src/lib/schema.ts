@@ -7,7 +7,7 @@ export const organizationSchema = (origin: string) => ({
   '@type': 'Organization',
   name: siteName,
   url: origin,
-  email: 'pouchex@CorbettIndustries.co',
+  email: 'james@corbettindustries.co',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Uttarakhand',

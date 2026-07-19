@@ -1,8 +1,8 @@
 Corbett Industries is a contract development and manufacturing organization (CDMO) focused on oral pouch products for nicotine, caffeine, and nootropic categories. We support OEM manufacturing, private label programs, custom formulation development, packaging planning, quality systems, and export-oriented production.
 
-- Homepage: https://CorbettIndustries.co/
-- Guides / Knowledge Center: https://CorbettIndustries.co/guides
-- OEM and manufacturing capabilities: https://CorbettIndustries.co/#capabilities
-- Product portfolio and range strategy: https://CorbettIndustries.co/#products
-- Quality and compliance: https://CorbettIndustries.co/#compliance
-- Contact Corbett Industries: mailto:pouchex@CorbettIndustries.co
+- Homepage: https://corbettindustries.co/
+- Guides / Knowledge Center: https://corbettindustries.co/guides
+- OEM and manufacturing capabilities: https://corbettindustries.co/#capabilities
+- Product portfolio and range strategy: https://corbettindustries.co/#products
+- Quality and compliance: https://corbettindustries.co/#compliance
+- Contact Corbett Industries: mailto:james@corbettindustries.co

@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://CorbettIndustries.co/sitemap.xml
+Sitemap: https://corbettindustries.co/sitemap.xml
