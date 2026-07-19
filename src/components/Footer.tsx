@@ -25,8 +25,8 @@ const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <Link to="/" className="flex items-center space-x-2">
-                <img src="/lovable-uploads/nicotine logo.webp" srcSet="/lovable-uploads/nicotine logo.webp 1x" alt="Corbett Labs logo" className="w-10 h-10 rounded-lg object-contain" />
-                <span className="font-bold text-2xl">Corbett Labs</span>
+                <img src="/lovable-uploads/nicotine logo.webp" srcSet="/lovable-uploads/nicotine logo.webp 1x" alt="Corbett Industries logo" className="w-10 h-10 rounded-lg object-contain" />
+                <span className="font-bold text-2xl">Corbett Industries</span>
               </Link>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
@@ -66,7 +66,7 @@ const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
                 onClick={() => scrollToSection('about')}
                 className="block text-white/80 hover:text-sky-glow transition-colors"
               >
-                About Corbett Labs
+                About Corbett Industries
               </button>
             </div>
           </div>
@@ -95,8 +95,8 @@ const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
             <address className="space-y-3 text-white/80 not-italic">
               <p>Uttarakhand, India</p>
               <p>
-                <a href="mailto:pouchex@corbettlabs.in" className="transition-colors hover:text-sky-glow">
-                  pouchex@corbettlabs.in
+                <a href="mailto:pouchex@CorbettIndustries.co" className="transition-colors hover:text-sky-glow">
+                  pouchex@CorbettIndustries.co
                 </a>
               </p>
               <button
@@ -114,7 +114,7 @@ const Footer = ({ onContactClick }: { onContactClick: () => void }) => {
         <div className="border-t border-white/20 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-white/60 text-sm">
-              © 2026 Corbett Labs. All rights reserved. Leading OEM Innovations Globally.
+              © 2026 Corbett Industries. All rights reserved. Leading OEM Innovations Globally.
             </div>
             {/* Footer links removed as requested */}
           </div>

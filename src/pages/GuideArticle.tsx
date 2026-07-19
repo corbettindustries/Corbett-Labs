@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import Seo from '../components/Seo';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
-import { getGuideBySlug, getRelatedGuides } from '../lib/content';
+import { canonicalSiteUrl, getGuideBySlug, getRelatedGuides } from '../lib/content';
 import { articleSchema, breadcrumbSchema, faqSchema, organizationSchema, webpageSchema, websiteSchema } from '../lib/schema';
 import NotFound from './NotFound';
 
@@ -20,7 +20,7 @@ const GuideArticle = () => {
       return [];
     }
 
-    const origin = window.location.origin;
+    const origin = canonicalSiteUrl;
     return [
       organizationSchema(origin),
       websiteSchema(origin),
@@ -77,7 +77,7 @@ const GuideArticle = () => {
             <div className="mb-6 flex flex-wrap gap-4 text-sm text-cool-grey">
               <span>{guide.readingTime}</span>
               <span aria-hidden="true">•</span>
-              <span>Industry insights by Corbett Labs</span>
+              <span>Industry insights by Corbett Industries</span>
             </div>
             <p className="mb-6 text-xl leading-8 text-deep-navy">{guide.quickAnswer}</p>
             <p className="max-w-4xl text-base leading-7 text-cool-grey">{guide.introduction}</p>
@@ -170,7 +170,7 @@ const GuideArticle = () => {
                   Looking for an experienced CDMO modern oral pouch manufacturer?
                 </h2>
                 <p className="mb-6 max-w-3xl text-cool-grey">
-                  Corbett Labs helps brands develop premium nicotine pouch products through custom
+                  Corbett Industries helps brands develop premium nicotine pouch products through custom
                   formulation, private label manufacturing, premium packaging, and international
                   production support.
                 </p>

@@ -1,12 +1,12 @@
-# Corbett Labs Website 🌿
+# Corbett Industries Website 🌿
 NEW LINE
 End-to-End OEM Capabilities for Nicotine Pouches & Alternatives
 
-This project showcases the official website for **Corbett Labs**, a leading OEM manufacturer specializing in **nicotine pouches and smokeless tobacco alternatives**.
+This project showcases the official website for **Corbett Industries**, a leading OEM manufacturer specializing in **nicotine pouches and smokeless tobacco alternatives**.
 
 ### ✨ About
 
-From **initial concept to market launch**, Corbett Labs provides complete OEM solutions, including:
+From **initial concept to market launch**, Corbett Industries provides complete OEM solutions, including:
 
 * Custom formulation & product design
 * Scalable manufacturing facilities

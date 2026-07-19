@@ -51,7 +51,7 @@ const HomepageFaqSection = ({ onContactClick }: { onContactClick: () => void }) 
               Planning an OEM or private label nicotine pouch project?
             </h3>
             <p className="mb-6 text-cool-grey">
-              Corbett Labs supports nicotine pouch manufacturing projects across formulation,
+              Corbett Industries supports nicotine pouch manufacturing projects across formulation,
               packaging, quality planning, and export-oriented production.
             </p>
 

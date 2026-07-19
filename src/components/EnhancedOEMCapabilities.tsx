@@ -38,7 +38,7 @@ const EnhancedOEMCapabilities = () => {
             OEM, Private Label, and Contract Manufacturing Capabilities
           </h2>
           <p className="text-xl text-cool-grey max-w-3xl mx-auto">
-            Corbett Labs supports nicotine pouch manufacturing from formulation planning and private
+            Corbett Industries supports nicotine pouch manufacturing from formulation planning and private
             label development through packaging coordination, quality systems, and export-ready
             production support.
           </p>

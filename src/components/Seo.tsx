@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { canonicalSiteUrl } from '../lib/content';
 
 type SeoProps = {
   title: string;
@@ -23,7 +24,7 @@ const upsertMetaTag = (selector: string, attributes: Record<string, string>) => 
 
 const Seo = ({ title, description, canonicalPath = '/', type = 'website', schema = [] }: SeoProps) => {
   useEffect(() => {
-    const canonicalUrl = new URL(canonicalPath, window.location.origin).toString();
+    const canonicalUrl = new URL(canonicalPath, canonicalSiteUrl).toString();
     document.title = title;
 
     upsertMetaTag('meta[name="description"]', { name: 'description', content: description });

@@ -5,21 +5,21 @@ import ContactModal from '../components/ContactModal';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import Seo from '../components/Seo';
-import { guides } from '../lib/content';
+import { canonicalSiteUrl, guides } from '../lib/content';
 import { breadcrumbSchema, organizationSchema, webpageSchema, websiteSchema } from '../lib/schema';
 
 const Guides = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
   const schema = useMemo(() => {
-    const origin = window.location.origin;
+    const origin = canonicalSiteUrl;
     return [
       organizationSchema(origin),
       websiteSchema(origin),
       webpageSchema({
         origin,
         path: '/guides',
-        title: 'Nicotine Pouch Guides and Industry Insights | Corbett Labs',
+        title: 'Nicotine Pouch Guides and Industry Insights | Corbett Industries',
         description: 'Educational guides covering nicotine pouch manufacturing, private label strategy, formulation, packaging, and quality planning.',
         imagePath: '/lovable-uploads/nicotine open pouch.webp'
       }),
@@ -33,7 +33,7 @@ const Guides = () => {
   return (
     <>
       <Seo
-        title="Nicotine Pouch Guides and Industry Insights | Corbett Labs"
+        title="Nicotine Pouch Guides and Industry Insights | Corbett Industries"
         description="Educational nicotine pouch guides covering manufacturing, formulation, packaging, private label strategy, and regulatory fundamentals."
         canonicalPath="/guides"
         schema={schema}
@@ -66,7 +66,7 @@ const Guides = () => {
               <p className="max-w-3xl text-base leading-7 text-cool-grey">
                 Each guide opens with a direct answer, then expands into practical detail on product
                 development, contract manufacturing, quality systems, regulatory context, and launch
-                planning. The goal is to make Corbett Labs a useful reference point before a project
+                planning. The goal is to make Corbett Industries a useful reference point before a project
                 ever reaches a quotation stage.
               </p>
             </div>

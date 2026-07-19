@@ -7,7 +7,8 @@ import ContactModal from '../components/ContactModal';
 import Seo from '../components/Seo';
 import GuidesPreviewSection from '../components/GuidesPreviewSection';
 import HomepageFaqSection from '../components/HomepageFaqSection';
-import { homepageDescription, homepageFaqs, homepageTitle } from '../lib/content';
+import HomepageIntroSection from '../components/HomepageIntroSection';
+import { canonicalSiteUrl, homepageDescription, homepageFaqs, homepageTitle } from '../lib/content';
 import { breadcrumbSchema, faqSchema, organizationSchema, webpageSchema, websiteSchema } from '../lib/schema';
 
 const MetricsCounter = lazy(() => import('../components/MetricsCounter'));
@@ -23,7 +24,7 @@ const Index = () => {
   const location = useLocation();
 
   const schema = useMemo(() => {
-    const origin = window.location.origin;
+    const origin = canonicalSiteUrl;
     return [
       organizationSchema(origin),
       websiteSchema(origin),
@@ -72,6 +73,7 @@ const Index = () => {
       <Navigation onContactClick={handleContactClick} />
       <main ref={scrollRef}>
         <EnhancedHero onContactClick={handleContactClick} />
+        <HomepageIntroSection onContactClick={handleContactClick} />
         <Suspense fallback={null}>
           <MetricsCounter />
           <EnhancedOEMCapabilities />

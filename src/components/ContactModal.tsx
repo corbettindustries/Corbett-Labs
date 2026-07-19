@@ -20,7 +20,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
   const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'your_service_id';
   const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'your_template_id';
   const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'your_public_key';
-  const RECIPIENT_EMAIL = 'pouchex@corbettlabs.in';
+  const RECIPIENT_EMAIL = 'pouchex@CorbettIndustries.co';
   const formRef = useRef<HTMLFormElement | null>(null);
   const [formData, setFormData] = useState({
     fullName: '',
@@ -89,7 +89,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
       };
       // Format email content in a structured manner
       const emailContent = `
-New Quote Request from Corbett Labs Website
+New Quote Request from Corbett Industries Website
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -128,7 +128,7 @@ Submitted: ${new Date().toLocaleString('en-US', {
         to_email: RECIPIENT_EMAIL,
         from_name: trimmed.fullName,
         from_email: trimmed.email,
-        subject: `New Quote Request from ${trimmed.companyName} - Corbett Labs Website`,
+        subject: `New Quote Request from ${trimmed.companyName} - Corbett Industries Website`,
         message: emailContent,
         full_name: trimmed.fullName,
         email: trimmed.email,
@@ -159,7 +159,7 @@ Submitted: ${new Date().toLocaleString('en-US', {
         if (formRef.current) formRef.current.reset();
         setLoadTimestamp(Date.now());
     } catch (err) {
-      setFormMessage({ type: 'error', text: 'We couldn’t send your request. Please try again later or email pouchex@corbettlabs.in.' });
+      setFormMessage({ type: 'error', text: 'We couldn’t send your request. Please try again later or email pouchex@CorbettIndustries.co.' });
     } finally {
       setIsSubmitting(false);
     }
@@ -298,7 +298,7 @@ Submitted: ${new Date().toLocaleString('en-US', {
                 </div>
                 <div>
                   <h4 className="font-medium text-deep-navy">Sales Team</h4>
-                  <p className="text-cool-grey">pouchex@corbettlabs.in</p>
+                  <p className="text-cool-grey">pouchex@CorbettIndustries.co</p>
                 </div>
                 
               </div>

@@ -46,7 +46,7 @@ const EnhancedHero = memo(({ onContactClick }: EnhancedHeroProps) => {
                 CDMO Nicotine Pouch Manufacturer
               </p>
               <h1 className="max-w-[16ch] text-left text-4xl font-bold leading-[1.04] tracking-tight sm:text-5xl md:text-6xl xl:text-7xl">
-                The Modern Oral Pouch CDMO
+                CDMO Nicotine Pouch Manufacturer and OEM Manufacturing
               </h1>
               <p className="mt-4 text-left text-xs font-medium uppercase tracking-[0.26em] text-white/80 sm:text-sm">
                 Nicotine • Caffeine • Nootropic
@@ -55,7 +55,7 @@ const EnhancedHero = memo(({ onContactClick }: EnhancedHeroProps) => {
 
             <div className="lg:col-span-4 lg:col-start-9 lg:justify-self-end lg:max-w-[30vw]">
               <p className="max-w-[36ch] text-left text-base font-normal leading-relaxed text-white/90 sm:text-lg md:text-xl lg:ml-auto lg:text-right lg:text-lg xl:text-xl">
-                Corbett Labs is a modern oral pouch CDMO specializing in OEM manufacturing, private label production, custom formulations, packaging development, and export-ready manufacturing for nicotine, caffeine, and nootropic pouch brands worldwide.
+                Corbett Industries is a modern oral pouch CDMO specializing in OEM manufacturing, private label production, custom formulations, packaging development, and export-ready manufacturing for nicotine, caffeine, and nootropic pouch brands worldwide.
               </p>
               <div className="mt-8 flex lg:justify-end">
                 <button

@@ -7,7 +7,7 @@ export const organizationSchema = (origin: string) => ({
   '@type': 'Organization',
   name: siteName,
   url: origin,
-  email: 'pouchex@corbettlabs.in',
+  email: 'pouchex@CorbettIndustries.co',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Uttarakhand',
@@ -16,7 +16,7 @@ export const organizationSchema = (origin: string) => ({
   logo: {
     '@type': 'ImageObject',
     url: buildUrl(origin, '/lovable-uploads/nicotine logo.webp'),
-    caption: 'Corbett Labs logo'
+    caption: 'Corbett Industries logo'
   }
 });
 

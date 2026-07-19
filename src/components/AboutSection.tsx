@@ -54,10 +54,10 @@ const AboutSection = () => {
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-6">
-            Corbett Labs as a nicotine pouch manufacturing partner
+            Corbett Industries as a nicotine pouch manufacturing partner
           </h2>
           <p className="text-xl text-cool-grey max-w-4xl mx-auto">
-            Corbett Labs supports premium nicotine pouch manufacturing through formulation-led
+            Corbett Industries supports premium nicotine pouch manufacturing through formulation-led
             development, private label production, quality-focused operations, and global project
             coordination.
           </p>

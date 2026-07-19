@@ -42,9 +42,9 @@ const Navigation = ({
   return <nav className={navClass} aria-label="Primary">
       <div className="container-max flex items-center justify-between py-4 px-6">
         <div className="flex items-center space-x-2">
-          <Link to="/" className="flex items-center space-x-2" aria-label="Corbett Labs home">
-            <img src="/lovable-uploads/nicotine logo.webp" srcSet="/lovable-uploads/nicotine logo.webp 1x" alt="Corbett Labs logo" className="w-8 h-8 rounded-lg object-contain" />
-            <span className="font-bold text-xl text-deep-navy">Corbett Labs</span>
+          <Link to="/" className="flex items-center space-x-2" aria-label="Corbett Industries home">
+            <img src="/lovable-uploads/nicotine logo.webp" srcSet="/lovable-uploads/nicotine logo.webp 1x" alt="Corbett Industries logo" className="w-8 h-8 rounded-lg object-contain" />
+            <span className="font-bold text-xl text-deep-navy">Corbett Industries</span>
           </Link>
         </div>
 

@@ -30,19 +30,21 @@ export type Guide = {
   relatedSlugs: string[];
 };
 
-export const siteName = 'Corbett Labs';
+export const siteName = 'Corbett Industries';
 
-export const homepageTitle = 'CDMO Nicotine Pouch Manufacturer | OEM Manufacturing | Corbett Labs';
+export const canonicalSiteUrl = 'https://CorbettIndustries.co';
 
-export const homepageDescription = 'Corbett Labs is a premium OEM nicotine pouch manufacturer providing private label manufacturing, custom formulations, packaging, export solutions, and production for global nicotine brands.';
+export const homepageTitle = 'CDMO Nicotine Pouch Manufacturer | Corbett Industries';
+
+export const homepageDescription = 'OEM and private label nicotine pouch manufacturing with custom formulations, packaging, and export support for global brands.';
 
 export const homepageFaqs: FaqItem[] = [
   {
     question: 'What is OEM nicotine pouch manufacturing?',
-    answerIntro: 'OEM nicotine pouch manufacturing means Corbett Labs manufactures nicotine pouch products for another brand, while the client owns the brand identity and market strategy.',
+    answerIntro: 'OEM nicotine pouch manufacturing means Corbett Industries manufactures nicotine pouch products for another brand, while the client owns the brand identity and market strategy.',
     paragraphs: [
       'In an OEM model, the manufacturing partner is responsible for technical execution rather than retail branding. That typically includes formulation planning, raw material sourcing, production, in-process controls, finished product quality checks, and coordination around packaging requirements. The brand owner then sells the finished nicotine pouches under its own name in its chosen markets.',
-      'For nicotine pouch projects, OEM manufacturing is often used by companies that want to launch or scale quickly without investing in their own nicotine pouch factory. It can also support more complex projects where consistency, documentation, batch traceability, and export planning matter. Corbett Labs positions OEM support around product development, manufacturing, packaging coordination, and quality systems rather than only toll filling.',
+      'For nicotine pouch projects, OEM manufacturing is often used by companies that want to launch or scale quickly without investing in their own nicotine pouch factory. It can also support more complex projects where consistency, documentation, batch traceability, and export planning matter. Corbett Industries positions OEM support around product development, manufacturing, packaging coordination, and quality systems rather than only toll filling.',
       'The practical advantage is that the client can focus on commercial growth, market positioning, and distribution while the manufacturing process is managed by a specialist team. The exact scope of work depends on the formulation, packaging format, compliance needs, and the destination market.'
     ]
   },
@@ -56,12 +58,12 @@ export const homepageFaqs: FaqItem[] = [
     ]
   },
   {
-    question: 'Can Corbett Labs develop custom nicotine pouch formulations?',
-    answerIntro: 'Corbett Labs can assist with custom nicotine pouch formulation development based on the client’s product requirements, manufacturing feasibility, and applicable regulatory considerations.',
+    question: 'Can Corbett Industries develop custom nicotine pouch formulations?',
+    answerIntro: 'Corbett Industries can assist with custom nicotine pouch formulation development based on the client’s product requirements, manufacturing feasibility, and applicable regulatory considerations.',
     paragraphs: [
       'Custom formulation work usually starts with a structured technical brief. That brief may cover target nicotine strength, flavour direction, pouch size, mouthfeel, moisture range, sweetness level, release profile, and packaging format. From there, development work can focus on choosing an appropriate nicotine system, balancing the dry blend, and aligning the product profile with production realities.',
       'Formulation development for custom nicotine pouches is not only about taste or strength. It also affects filling behaviour, stability, sensory consistency, shelf life, and how the product performs across different climates and logistics conditions. A formulation that seems attractive in a concept stage still needs to be manufacturable and repeatable at commercial scale.',
-      'For that reason, custom projects are usually reviewed through both a product lens and a production lens. Corbett Labs can discuss strength targets, flavour architecture, pouch characteristics, and packaging preferences, while making clear that final scope depends on feasibility, material compatibility, and the legal framework of the intended market.'
+      'For that reason, custom projects are usually reviewed through both a product lens and a production lens. Corbett Industries can discuss strength targets, flavour architecture, pouch characteristics, and packaging preferences, while making clear that final scope depends on feasibility, material compatibility, and the legal framework of the intended market.'
     ]
   },
   {
@@ -70,25 +72,25 @@ export const homepageFaqs: FaqItem[] = [
     paragraphs: [
       'There is no responsible single MOQ answer that applies to every nicotine pouch project. A standard private label can, a custom flavour system, a new pouch substrate, and a market-specific export configuration all place different demands on sourcing, setup, and line efficiency. Those factors directly influence what a workable commercial minimum looks like.',
       'MOQ can also be affected by artwork quantities, packaging component lead times, raw material order sizes, and whether the project requires samples, pilot runs, or a more complex validation process. In many contract manufacturing environments, the right production volume is a balance between technical practicality and the customer’s launch strategy.',
-      'The best approach is to discuss the project in context rather than rely on a generic figure. Corbett Labs can review the intended product profile, packaging expectations, and target markets, then provide project-specific guidance on minimum production requirements and how those requirements may change as the product scope evolves.'
+      'The best approach is to discuss the project in context rather than rely on a generic figure. Corbett Industries can review the intended product profile, packaging expectations, and target markets, then provide project-specific guidance on minimum production requirements and how those requirements may change as the product scope evolves.'
     ]
   },
   {
-    question: 'Does Corbett Labs export internationally?',
-    answerIntro: 'Corbett Labs works with international clients and can support export-oriented nicotine pouch manufacturing projects, subject to the requirements of the destination market.',
+    question: 'Does Corbett Industries export internationally?',
+    answerIntro: 'Corbett Industries works with international clients and can support export-oriented nicotine pouch manufacturing projects, subject to the requirements of the destination market.',
     paragraphs: [
       'Export support in this category is more than arranging shipment. International nicotine pouch projects typically require attention to market-specific labeling, packaging documentation, batch records, ingredient disclosure expectations, and the standards that apply to the importer’s jurisdiction. Those requirements vary significantly across regions and product categories.',
       'A manufacturing partner can help by aligning production documentation, packaging coordination, and commercial planning with export realities early in the project. This is particularly important for brands entering multiple countries, where carton configuration, pack language, and compliance review may differ even when the core product remains the same.',
-      'Corbett Labs can discuss international production support and export planning with prospective clients, but finished products still need to comply with the rules of the destination market. Importers and brand owners should always confirm the regulatory position for the specific countries in which they intend to sell.'
+      'Corbett Industries can discuss international production support and export planning with prospective clients, but finished products still need to comply with the rules of the destination market. Importers and brand owners should always confirm the regulatory position for the specific countries in which they intend to sell.'
     ]
   },
   {
-    question: 'Can Corbett Labs help with packaging and branding?',
-    answerIntro: 'Corbett Labs supports packaging development for nicotine pouch projects, including container selection, labeling requirements, and premium packaging options suited to private label manufacturing.',
+    question: 'Can Corbett Industries help with packaging and branding?',
+    answerIntro: 'Corbett Industries supports packaging development for nicotine pouch projects, including container selection, labeling requirements, and premium packaging options suited to private label manufacturing.',
     paragraphs: [
       'Packaging support is a practical part of nicotine pouch manufacturing because the packaging system affects shelf presentation, labeling compliance, child-resistance considerations, pallet efficiency, and overall product protection. Decisions made at the packaging stage can also influence line speed, component sourcing, and export readiness.',
       'That support can include selecting can formats, reviewing label layouts against production requirements, discussing finish options, and coordinating packaging components that fit the intended product and target market. Where a project involves private label nicotine pouches, packaging usually needs to balance visual identity with operational reliability and regulatory clarity.',
-      'This should not be confused with claiming full-service brand strategy or creative agency work unless that scope is separately agreed. The manufacturing role is typically centered on packaging feasibility and production compatibility. Corbett Labs can discuss packaging development and premium packaging options as part of a broader OEM or private label manufacturing project.'
+      'This should not be confused with claiming full-service brand strategy or creative agency work unless that scope is separately agreed. The manufacturing role is typically centered on packaging feasibility and production compatibility. Corbett Industries can discuss packaging development and premium packaging options as part of a broader OEM or private label manufacturing project.'
     ]
   },
   {
@@ -97,25 +99,25 @@ export const homepageFaqs: FaqItem[] = [
     paragraphs: [
       'A simple repeat order using established materials can move very differently from a first-time project that includes custom formulation, packaging development, sample review, and export coordination. Production time is therefore a planning exercise rather than a fixed number that can be quoted responsibly without context.',
       'The main timeline drivers usually include product development scope, artwork approval, packaging material lead times, laboratory or stability checks where applicable, final production scheduling, and quality release procedures. If a project spans multiple markets, additional review cycles may also affect readiness for commercial manufacturing.',
-      'For that reason, nicotine pouch contract manufacturing should be approached as a phased process with clear approvals rather than as a single production event. Corbett Labs can review the intended product, packaging, and commercial target to provide a realistic production schedule based on the actual project requirements and the manufacturing window available at the time.'
+      'For that reason, nicotine pouch contract manufacturing should be approached as a phased process with clear approvals rather than as a single production event. Corbett Industries can review the intended product, packaging, and commercial target to provide a realistic production schedule based on the actual project requirements and the manufacturing window available at the time.'
     ]
   },
   {
-    question: 'Can Corbett Labs manufacture synthetic nicotine products?',
+    question: 'Can Corbett Industries manufacture synthetic nicotine products?',
     answerIntro: 'Synthetic nicotine manufacturing capability depends on the project scope, technical requirements, and the regulatory framework that applies to the intended market.',
     paragraphs: [
       'Synthetic nicotine projects require separate discussion because the sourcing profile, documentation requirements, regulatory treatment, and market positioning may differ from products based on tobacco-derived nicotine. That distinction matters for both manufacturing feasibility and downstream compliance planning.',
       'From a technical perspective, a manufacturer would need to assess raw material suitability, formulation compatibility, labeling implications, and how the selected nicotine system fits the product concept. From a commercial perspective, the brand owner also needs to consider how the target market classifies and regulates the finished product.',
-      'Rather than making a blanket claim, Corbett Labs invites prospective clients to discuss the specific formulation goals, market targets, and project requirements directly. That allows capabilities, limitations, and regulatory considerations to be reviewed in a responsible and project-specific way.'
+      'Rather than making a blanket claim, Corbett Industries invites prospective clients to discuss the specific formulation goals, market targets, and project requirements directly. That allows capabilities, limitations, and regulatory considerations to be reviewed in a responsible and project-specific way.'
     ]
   },
   {
-    question: 'Can startups work with Corbett Labs?',
-    answerIntro: 'Corbett Labs works with businesses at different stages of growth, and startup suitability is evaluated against manufacturing requirements, production scale, and overall commercial feasibility.',
+    question: 'Can startups work with Corbett Industries?',
+    answerIntro: 'Corbett Industries works with businesses at different stages of growth, and startup suitability is evaluated against manufacturing requirements, production scale, and overall commercial feasibility.',
     paragraphs: [
       'Startups often need more than a filling line. They may need guidance on product scope, packaging practicality, target strengths, launch sequencing, and the difference between a fast market entry plan and a more customized development program. Those early decisions can shape cost, speed, and operational risk for the brand.',
       'At the same time, not every project is ready for manufacturing on day one. A strong startup project usually has a clear target market, a realistic volume plan, a defined product concept, and an understanding that nicotine pouch production involves technical and regulatory boundaries. The more clarity a new brand can provide, the easier it is to evaluate fit and move efficiently.',
-      'Corbett Labs can discuss projects from early-stage businesses as well as established operators. The right path depends on whether the proposed product, packaging scope, and launch model are commercially workable within the realities of OEM or private label nicotine pouch manufacturing.'
+      'Corbett Industries can discuss projects from early-stage businesses as well as established operators. The right path depends on whether the proposed product, packaging scope, and launch model are commercially workable within the realities of OEM or private label nicotine pouch manufacturing.'
     ]
   },
   {
@@ -144,7 +146,7 @@ export const guides: Guide[] = [
   {
     slug: 'what-are-nicotine-pouches',
     title: 'What Are Nicotine Pouches?',
-    seoTitle: 'What Are Nicotine Pouches? Manufacturing, Ingredients, and Market Overview | Corbett Labs',
+    seoTitle: 'What Are Nicotine Pouches? Manufacturing, Ingredients, and Market Overview | Corbett Industries',
     metaDescription: 'A detailed guide to nicotine pouches covering how they work, ingredients, manufacturing basics, consumer use, and how they differ from snus and chewing tobacco.',
     heroKicker: 'Category Guide',
     heroSummary: 'A practical introduction to nicotine pouches for brand owners, distributors, and product teams evaluating the category.',
@@ -248,7 +250,7 @@ export const guides: Guide[] = [
         paragraphs: [
           'As the category matures, product development is becoming more disciplined. Buyers increasingly expect clearer positioning around strength, pouch comfort, flavor authenticity, and packaging quality. That pushes manufacturers to improve not only commercial speed but also formulation robustness, documentation, and consistency.',
           'Innovation will likely center on better sensory control, more refined nicotine release profiles, premium packaging execution, and region-specific product portfolios. Brand owners will also need manufacturing partners that can translate marketing concepts into realistic production programs without compromising quality or shelf stability.',
-          'For Corbett Labs and similar manufacturers, authority in this space will come from the ability to explain the category clearly and manufacture it reliably. Educational content, transparent production logic, and strong technical execution increasingly reinforce each other in both search visibility and commercial trust.'
+          'For Corbett Industries and similar manufacturers, authority in this space will come from the ability to explain the category clearly and manufacture it reliably. Educational content, transparent production logic, and strong technical execution increasingly reinforce each other in both search visibility and commercial trust.'
         ]
       }
     ],
@@ -283,7 +285,7 @@ export const guides: Guide[] = [
   {
     slug: 'how-nicotine-pouches-are-manufactured',
     title: 'How Nicotine Pouches Are Manufactured',
-    seoTitle: 'How Nicotine Pouches Are Manufactured | OEM Process Guide | Corbett Labs',
+    seoTitle: 'How Nicotine Pouches Are Manufactured | OEM Process Guide | Corbett Industries',
     metaDescription: 'A manufacturing guide covering nicotine pouch ingredients, blending, moisture control, filling, packaging, quality testing, and shelf-life considerations.',
     heroKicker: 'Manufacturing Guide',
     heroSummary: 'A process-level explanation of how a nicotine pouch factory turns a formulation brief into a repeatable finished product.',
@@ -412,7 +414,7 @@ export const guides: Guide[] = [
   {
     slug: 'synthetic-nicotine-vs-tobacco-derived-nicotine',
     title: 'Synthetic Nicotine vs Tobacco-Derived Nicotine',
-    seoTitle: 'Synthetic Nicotine vs Tobacco-Derived Nicotine | OEM Considerations | Corbett Labs',
+    seoTitle: 'Synthetic Nicotine vs Tobacco-Derived Nicotine | OEM Considerations | Corbett Industries',
     metaDescription: 'A practical comparison of synthetic nicotine and tobacco-derived nicotine covering formulation, purity, manufacturing implications, regulation, and brand strategy.',
     heroKicker: 'Formulation Guide',
     heroSummary: 'A comparative overview for teams deciding which nicotine system best fits their product and market strategy.',
@@ -473,7 +475,7 @@ export const guides: Guide[] = [
         paragraphs: [
           'Some consumers focus on flavor, strength, and brand identity more than source. Others care strongly about how the nicotine system is described. That means the best product decision depends on the market segment being targeted and the claims strategy the brand intends to use.',
           'On the OEM side, the manufacturer needs clarity around sourcing, documentation, expected volumes, packaging language, and destination market restrictions. A brand may want a differentiated concept, but that concept still needs a viable supply chain and a production pathway that can be repeated without unnecessary friction.',
-          'In practice, the right decision is usually the one that aligns formulation logic, market expectations, and regulatory reality. That is the lens through which Corbett Labs approaches custom nicotine pouch projects.'
+          'In practice, the right decision is usually the one that aligns formulation logic, market expectations, and regulatory reality. That is the lens through which Corbett Industries approaches custom nicotine pouch projects.'
         ],
         bullets: [
           'Check the target market before finalizing the nicotine system.',
@@ -506,7 +508,7 @@ export const guides: Guide[] = [
   {
     slug: 'oem-vs-private-label-vs-white-label-manufacturing',
     title: 'OEM vs Private Label vs White Label Manufacturing',
-    seoTitle: 'OEM vs Private Label vs White Label Nicotine Pouch Manufacturing | Corbett Labs',
+    seoTitle: 'OEM vs Private Label vs White Label Nicotine Pouch Manufacturing | Corbett Industries',
     metaDescription: 'Understand the difference between OEM, private label, and white label nicotine pouch manufacturing, including customization, costs, development timelines, and who each model fits.',
     heroKicker: 'Commercial Strategy Guide',
     heroSummary: 'A decision framework for choosing the right manufacturing model for a nicotine pouch launch or expansion plan.',
@@ -567,7 +569,7 @@ export const guides: Guide[] = [
         paragraphs: [
           'White label is typically best for companies that want quick entry, simple decision-making, and limited development complexity. Private label fits companies that want their own brand presence with a practical degree of customization. OEM suits businesses that want a stronger product identity, deeper technical input, or a more market-specific proposition.',
           'None of these paths is inherently superior. The strongest choice is the one that matches the company’s capital, target market, packaging readiness, regulatory workload, and distribution plan. A mismatch between model and business stage is often more damaging than choosing a less customized route.',
-          'For Corbett Labs, the useful question is not which label sounds most impressive. It is which manufacturing model gives the client the best balance of speed, differentiation, quality control, and commercial feasibility.'
+          'For Corbett Industries, the useful question is not which label sounds most impressive. It is which manufacturing model gives the client the best balance of speed, differentiation, quality control, and commercial feasibility.'
         ],
         bullets: [
           'Choose white label for speed and simplicity.',
@@ -599,7 +601,7 @@ export const guides: Guide[] = [
   {
     slug: 'how-to-launch-your-own-nicotine-pouch-brand',
     title: 'How to Launch Your Own Nicotine Pouch Brand',
-    seoTitle: 'How to Launch Your Own Nicotine Pouch Brand | Private Label Guide | Corbett Labs',
+    seoTitle: 'How to Launch Your Own Nicotine Pouch Brand | Private Label Guide | Corbett Industries',
     metaDescription: 'A complete guide to launching a nicotine pouch brand, including branding, product development, flavor selection, packaging, MOQ planning, compliance, export, and scaling.',
     heroKicker: 'Launch Guide',
     heroSummary: 'A step-by-step overview for founders, distributors, and category entrants building a new nicotine pouch brand.',
@@ -707,7 +709,7 @@ export const guides: Guide[] = [
   {
     slug: 'nicotine-strength-guide',
     title: 'Nicotine Strength Guide',
-    seoTitle: 'Nicotine Strength Guide for Nicotine Pouches | Corbett Labs',
+    seoTitle: 'Nicotine Strength Guide for Nicotine Pouches | Corbett Industries',
     metaDescription: 'Learn how nicotine pouch strengths are formulated, how consumers choose them, and what brands should consider when building a strength ladder.',
     heroKicker: 'Strength Guide',
     heroSummary: 'A practical explanation of strength architecture for brand teams and product planners.',
@@ -763,7 +765,7 @@ export const guides: Guide[] = [
         paragraphs: [
           'Strength communication is part product design and part quality responsibility. If the label implies a certain experience, the finished product should support that expectation consistently. That requires accurate manufacturing records, controlled filling, and packaging that makes the strength easy to identify without overwhelming the visual hierarchy.',
           'Brands should avoid turning strength into exaggerated marketing. The better path is to describe the range clearly, distinguish SKUs visibly, and let the product quality support the positioning. This is particularly important when the range is distributed across multiple markets or channels.',
-          'For Corbett Labs, strength strategy is most effective when it is planned in parallel with flavor range, packaging, and overall brand tier. Those decisions reinforce each other.'
+          'For Corbett Industries, strength strategy is most effective when it is planned in parallel with flavor range, packaging, and overall brand tier. Those decisions reinforce each other.'
         ]
       }
     ],
@@ -790,7 +792,7 @@ export const guides: Guide[] = [
   {
     slug: 'nicotine-pouch-flavour-guide',
     title: 'Nicotine Pouch Flavour Guide',
-    seoTitle: 'Nicotine Pouch Flavour Guide | Mint, Fruit, Coffee, Citrus, Berry and Custom Flavours | Corbett Labs',
+    seoTitle: 'Nicotine Pouch Flavour Guide | Mint, Fruit, Coffee, Citrus, Berry and Custom Flavours | Corbett Industries',
     metaDescription: 'Explore nicotine pouch flavor strategy, including mint, fruit, coffee, citrus, berry, dessert, custom flavors, and regional preferences.',
     heroKicker: 'Flavor Guide',
     heroSummary: 'A flavor strategy guide for nicotine pouch brands building a credible and commercially useful range.',
@@ -874,7 +876,7 @@ export const guides: Guide[] = [
   {
     slug: 'understanding-quality-control-in-nicotine-pouch-manufacturing',
     title: 'Understanding Quality Control in Nicotine Pouch Manufacturing',
-    seoTitle: 'Quality Control in Nicotine Pouch Manufacturing | Testing and Batch Consistency | Corbett Labs',
+    seoTitle: 'Quality Control in Nicotine Pouch Manufacturing | Testing and Batch Consistency | Corbett Industries',
     metaDescription: 'Learn how nicotine pouch manufacturers approach testing, consistency, moisture control, nicotine verification, microbiology, packaging quality, and batch documentation.',
     heroKicker: 'Quality Guide',
     heroSummary: 'A quality-systems overview for buyers evaluating nicotine pouch production partners and batch control standards.',
@@ -959,7 +961,7 @@ export const guides: Guide[] = [
   {
     slug: 'packaging-options-for-private-label-nicotine-pouches',
     title: 'Packaging Options for Private Label Nicotine Pouches',
-    seoTitle: 'Packaging Options for Private Label Nicotine Pouches | Corbett Labs',
+    seoTitle: 'Packaging Options for Private Label Nicotine Pouches | Corbett Industries',
     metaDescription: 'Explore nicotine pouch packaging options including can design, labels, child-resistant formats, premium finishes, sustainability considerations, and export packaging.',
     heroKicker: 'Packaging Guide',
     heroSummary: 'A packaging-focused guide for brands that want premium shelf presence without losing manufacturing practicality.',
@@ -1037,7 +1039,7 @@ export const guides: Guide[] = [
   {
     slug: 'global-regulations-for-nicotine-pouches',
     title: 'Global Regulations for Nicotine Pouches',
-    seoTitle: 'Global Regulations for Nicotine Pouches | Market Overview | Corbett Labs',
+    seoTitle: 'Global Regulations for Nicotine Pouches | Market Overview | Corbett Industries',
     metaDescription: 'An overview of nicotine pouch regulation across the EU, UK, USA, Middle East, and Asia, including labeling, manufacturing standards, and export considerations.',
     heroKicker: 'Regulatory Overview',
     heroSummary: 'A high-level market overview for brands planning multi-country nicotine pouch manufacturing and export projects.',
@@ -1111,7 +1113,7 @@ export const guides: Guide[] = [
   {
     slug: 'how-to-choose-a-nicotine-pouch-manufacturer',
     title: 'How to Choose a Nicotine Pouch Manufacturer',
-    seoTitle: 'How to Choose a Nicotine Pouch Manufacturer | OEM and Private Label Buyer Guide | Corbett Labs',
+    seoTitle: 'How to Choose a Nicotine Pouch Manufacturer | OEM and Private Label Buyer Guide | Corbett Industries',
     metaDescription: 'A practical B2B guide to evaluating nicotine pouch manufacturers, including quality systems, OEM and private label scope, traceability, export readiness, and scaling capability.',
     heroKicker: 'Supplier Selection Guide',
     heroSummary: 'A procurement-focused framework for selecting the right nicotine pouch manufacturing partner before requesting quotations.',
@@ -1205,7 +1207,7 @@ export const guides: Guide[] = [
   {
     slug: 'caffeine-pouch-manufacturing-process',
     title: 'Caffeine Pouch Manufacturing Process',
-    seoTitle: 'Caffeine Pouch Manufacturing Process | B2B Production Guide | Corbett Labs',
+    seoTitle: 'Caffeine Pouch Manufacturing Process | B2B Production Guide | Corbett Industries',
     metaDescription: 'A technical guide to caffeine pouch manufacturing, from product brief and ingredient selection through blending, filling, packaging, quality testing, and final batch release.',
     heroKicker: 'Process Guide',
     heroSummary: 'A structured overview of caffeine pouch manufacturing from concept briefing to released finished goods.',
@@ -1293,7 +1295,7 @@ export const guides: Guide[] = [
   {
     slug: 'private-label-caffeine-pouches',
     title: 'Private Label Caffeine Pouches',
-    seoTitle: 'Private Label Caffeine Pouches | Launch and Sourcing Guide | Corbett Labs',
+    seoTitle: 'Private Label Caffeine Pouches | Launch and Sourcing Guide | Corbett Industries',
     metaDescription: 'A B2B guide to launching private label caffeine pouches, covering customization options, branding, packaging, MOQ planning, speed-to-market, and ideal customer profiles.',
     heroKicker: 'Commercial Guide',
     heroSummary: 'A practical guide for brands evaluating private label and white label caffeine pouch launch models.',
@@ -1370,7 +1372,7 @@ export const guides: Guide[] = [
   {
     slug: 'custom-caffeine-pouch-formulation',
     title: 'Custom Caffeine Pouch Formulation',
-    seoTitle: 'Custom Caffeine Pouch Formulation | R&D and Product Development Guide | Corbett Labs',
+    seoTitle: 'Custom Caffeine Pouch Formulation | R&D and Product Development Guide | Corbett Industries',
     metaDescription: 'A formulation-focused guide covering caffeine dosage strategy, release profile, moisture optimization, flavor masking, sweetener systems, compatibility, and stability planning.',
     heroKicker: 'R&D Guide',
     heroSummary: 'A technical framework for developing custom caffeine pouch formulations with commercial consistency in mind.',
@@ -1448,7 +1450,7 @@ export const guides: Guide[] = [
   {
     slug: 'best-ingredients-for-caffeine-pouches',
     title: 'Best Ingredients for Caffeine Pouches',
-    seoTitle: 'Best Ingredients for Caffeine Pouches | Formulation Ingredient Guide | Corbett Labs',
+    seoTitle: 'Best Ingredients for Caffeine Pouches | Formulation Ingredient Guide | Corbett Industries',
     metaDescription: 'A technical ingredient guide for caffeine pouch formulation, including caffeine anhydrous, natural caffeine, L-theanine, taurine, electrolytes, B vitamins, and selected botanicals.',
     heroKicker: 'Ingredient Guide',
     heroSummary: 'A practical overview of commonly used caffeine pouch ingredients and formulation considerations for B2B product teams.',
@@ -1525,7 +1527,7 @@ export const guides: Guide[] = [
   {
     slug: 'what-are-nootropic-pouches',
     title: 'What Are Nootropic Pouches?',
-    seoTitle: 'What Are Nootropic Pouches? Category and Manufacturing Overview | Corbett Labs',
+    seoTitle: 'What Are Nootropic Pouches? Category and Manufacturing Overview | Corbett Industries',
     metaDescription: 'An introductory guide to nootropic pouches, including category definition, use-case positioning, ingredient types, and manufacturing considerations for B2B brands.',
     heroKicker: 'Category Guide',
     heroSummary: 'A foundational guide introducing the nootropic oral pouch category for product and sourcing teams.',
@@ -1596,7 +1598,7 @@ export const guides: Guide[] = [
   {
     slug: 'custom-nootropic-pouch-formulations',
     title: 'Custom Nootropic Pouch Formulations',
-    seoTitle: 'Custom Nootropic Pouch Formulations | R&D Development Guide | Corbett Labs',
+    seoTitle: 'Custom Nootropic Pouch Formulations | R&D Development Guide | Corbett Industries',
     metaDescription: 'A technical R&D guide to custom nootropic pouch formulation, including compatibility, moisture management, flavor masking, stability, release profile, and bioactive combination strategy.',
     heroKicker: 'R&D Guide',
     heroSummary: 'A formulation-focused guide for teams developing custom nootropic pouch products with multi-ingredient systems.',
@@ -1673,7 +1675,7 @@ export const guides: Guide[] = [
   {
     slug: 'best-ingredients-for-nootropic-pouches',
     title: 'Best Ingredients for Nootropic Pouches',
-    seoTitle: 'Best Ingredients for Nootropic Pouches | Formulation Ingredient Overview | Corbett Labs',
+    seoTitle: 'Best Ingredients for Nootropic Pouches | Formulation Ingredient Overview | Corbett Industries',
     metaDescription: 'A B2B guide to nootropic pouch ingredients including Alpha-GPC, Citicoline, L-Tyrosine, L-Theanine, Lion’s Mane, Bacopa, Rhodiola, Huperzine A, and caffeine where appropriate.',
     heroKicker: 'Ingredient Guide',
     heroSummary: 'A technical overview of commonly used ingredients for nootropic pouches and their formulation implications.',
